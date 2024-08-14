@@ -6,20 +6,20 @@ import { Navbar,Biling,Busines,Button,CardDeal,Clients,CTA,FeedbackCard,GetStart
 
 const App =() =>(
   
-   <div className= "bg-purple-900 w-full overflow-hidden">
+   <div className= "bg-black w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
       <Navbar/>
         </div>
       </div>
 
-      <div className={`bg-green-600 ${styles.flexCenter} ${styles.paddingX}`}>
+      <div className={`bg-black ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero/>
         </div>
       </div>
 
-      <div className={`bg-orange-400 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Busines/>
@@ -34,7 +34,7 @@ const App =() =>(
         </div>
       </div>
 
-      <div className={`bg-purple-900 ${styles.flexCenter} ${styles.paddingX}`}>
+      <div className={`bg-black ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer/>
         </div>
