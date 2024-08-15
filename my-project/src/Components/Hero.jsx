@@ -82,7 +82,7 @@ const Hero = () => {
                                                   
                                                   
                                                   
-                                                  <div>
+                                                  {/* <div>
                                                     <h6 className={`flex flex-row justify-between item-center text-[13px] text-white  `}>
                                                       
                                                       Our team of experts uses a methodology to identify <br/>
@@ -90,7 +90,7 @@ const Hero = () => {
                                                       We examine annual percentage rates, annual fees.
                                                     
                                                     </h6>
-                                                  </div>
+                                                  </div> */}
 
     </div>
 
